@@ -6,5 +6,8 @@ def reverse_seq(n):
     print(new_list)
     return new_list
 
+# def reverse_seq(n):
+#     return list(range(n, 0, -1))
 
-reverse_seq(10800000)
+
+reverse_seq(108)
