@@ -32,6 +32,9 @@ def to_freud(sentence):
         # print(new_sentence)
         return new_sentence
 
+    
+# def to_freud(sentence):
+#     return ' '.join('sex' for _ in sentence.split())
 
 to_freud("This is a test")
 to_freud("You're becoming a true freudian expert")
