@@ -9,4 +9,7 @@ def pipe_fix(nums):
     print(new_list)
     return new_list
 
+# def pipe_fix(nums):
+#     return list(range(nums[0], nums[-1] + 1))
+
 pipe_fix([6, 9])
