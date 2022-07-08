@@ -18,6 +18,13 @@ def sum_mul(n, m):
     else:
         print("INVALID")
         return "INVALID"
+    
+    
+#     def sum_mul(n, m):
+#     if m>0 and n>0:
+#         return sum(range(n, m, n))
+#     else:
+#         return 'INVALID'
 
 
 sum_mul(58, 59)
