@@ -12,6 +12,9 @@ def correct(s):
     print(''.join(new_s))
     return ''.join(new_s)
 
+# def correct(string):
+#     return string.translate(str.maketrans("501", "SOI"))
+
 
 correct("L0ND0N")
 correct("DUBL1N")
