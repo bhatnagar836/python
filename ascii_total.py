@@ -10,6 +10,9 @@ def uni_total(s):
             total = total + asc_value
         print(total)
         return total
+    
+# def uni_total(s):
+#     return sum(ord(c) for c in s)
 
 
 uni_total("")
