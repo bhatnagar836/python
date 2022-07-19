@@ -1,3 +1,4 @@
+# kata7
 def divisions(dividend, divisor):
     counter = 0
     while dividend >= divisor:
