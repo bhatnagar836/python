@@ -8,4 +8,7 @@ def descending_order(num):
     return int("".join(new_list))
 
 
+# def Descending_Order(num):
+#     return int("".join(sorted(str(num), reverse=True)))
+
 descending_order(145263)
