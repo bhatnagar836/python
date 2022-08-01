@@ -1,22 +1,13 @@
-def max_len(l1, l2):
-    if l1 > l2:
-        if 2 * l1 >= l2:
-            print(l2)
-            return l2
-        elif 2 * l1 < l2:
-            stick_len = (l2/2)
-            print(stick_len)
-            return stick_len
+def past(h, m, s):
+    milliseconds = 0
+    if 0 <= h <= 23:
+        milliseconds += h * 60 * 60 * 1000
+    if 0 <= m <= 59:
+        milliseconds += m * 60 * 1000
+    if 0 <= m <= 59:
+        milliseconds += s * 1000
+    return milliseconds
 
-    elif l2 > l1:
-        if 2 * l2 >= l1:
-            print(l1)
-            return l1
-        elif 2 * l2 < l1:
-            stick_len = (l2/2)
-            print(stick_len)
-            return stick_len
-    elif l1 == l2:
-        return (l1 + l2)/3
 
-max_len(12,5)
+past(1,0,1)
+past(1, 0, 0)
