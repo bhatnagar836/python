@@ -1,29 +1,12 @@
 # FILE WRITING
-f=open("pooja.txt", "w")
-# Getting number of characters printed
-f.write("Pooja girl is a very good \n")
-f.write("Pooja likes walking in nature")
-# b=f.write("Pooja has started doing meditation also\n")
-# print(b)
 
-# FILE APPEND
-# f = open("pooja.txt", "a")
-# f.write("Pooja does excersize also \n")
-# c=f.write("Pooja does excersize also \n")
-# print(c)
+n = int(input("Enter how many rows?\n"))
+boolean = int(input("Enter 0 for ascending traingle pattern and 1 for decending traingle pattern\n"))
+print("You have entered ",bool(boolean))
 
-# HANDLE READ AND WRITE BOTH
-fptr1=open("pooja2.txt", "r+")
-print(fptr1.read())
-fptr1.write("Thankyou\n")
-
-
-
-
-
-
-
-
-
-
-f.close()
+if boolean == 0:
+    for i in range(n+1):
+        print(("*")*i)
+elif boolean == 1:
+    for i in range(n+1):
+        print(("*")* (n-i))
