@@ -1,13 +1,9 @@
-# More on Files
-f=open("pooja.txt")
 
-# Following will tell the current position of the file handler
-# print(f.tell())
+with open("pooja.txt") as f: #opens as well as closes the file
+    a = f.readlines()
+    print(a)
+
+f = open("pooja.txt", "rt")
 print(f.readline())
-# print(f.tell())
-print(f.readline())
-# print(f.tell())
-
-# Following will reset the file handler to the given position
-
+f.close()
 
