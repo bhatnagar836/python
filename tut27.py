@@ -37,4 +37,13 @@ print(fptr.readlines())
 # content=fptr.read(50)
 # print("2",content)
 
+
+
+# f = open("pooja.txt", "w")
+# f = open("pooja.txt", "a")
+# f.write("She is very special to me\n")
+# f.write("She is god's favourite child and a divine being")
+# f.close()
+
+
 fptr.close() #after doing all the operations and accesses, we must need to close the file
